@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "minew")(type "KiCad")(uri "${KIPRJMOD}/libraries/minew/minew.kicad_sym")(options "")(descr ""))
+)
