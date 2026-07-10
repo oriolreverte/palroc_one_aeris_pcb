@@ -124,7 +124,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
@@ -136,10 +136,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.55,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -191,11 +191,9 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
-        0.2,
-        0.25,
+        0.152,
+        0.2474,
         0.3,
-        0.35,
         0.4,
         0.5
       ],
@@ -231,7 +229,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.55,
+          "diameter": 0.5,
           "drill": 0.25
         },
         {
@@ -515,17 +513,25 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.2474,
+        "name": "90R_diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.28,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CAN Bus",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -536,14 +542,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Chassis",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(139, 103, 213)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -554,14 +559,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -572,14 +576,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "High Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(177, 11, 198)",
         "track_width": 0.2,
         "via_diameter": 0.7,
@@ -590,14 +593,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Kelvin Diff Pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -608,14 +610,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power 12V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(255, 0, 171)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -626,14 +627,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power 3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(220, 142, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -644,14 +644,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power 5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(212, 0, 32)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -662,14 +661,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power A3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(162, 155, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -680,14 +678,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.28,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RS422 Diff Pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -856,6 +853,30 @@
       {
         "netclass": "Power 5V",
         "pattern": "/Project Architecture/Power - Generation/F_VIN_3V3"
+      },
+      {
+        "netclass": "90R_diff",
+        "pattern": "/Project Architecture/Connectors/D-"
+      },
+      {
+        "netclass": "90R_diff",
+        "pattern": "/Project Architecture/Connectors/D+"
+      },
+      {
+        "netclass": "90R_diff",
+        "pattern": "/Project Architecture/Connectors/D-_mid"
+      },
+      {
+        "netclass": "90R_diff",
+        "pattern": "/Project Architecture/Connectors/D+_mid"
+      },
+      {
+        "netclass": "90R_diff",
+        "pattern": "/Project Architecture/Connectors/D1_N"
+      },
+      {
+        "netclass": "90R_diff",
+        "pattern": "/Project Architecture/Connectors/D1_P"
       }
     ]
   },
@@ -1018,12 +1039,8 @@
       "Project Architecture"
     ],
     [
-      "f06537ee-772d-44d3-8c50-e0ba41038c9c",
-      "Section A - Title A"
-    ],
-    [
       "e744f3ce-03a6-44a6-8792-1447ef232b9a",
-      "Section B - Title B"
+      "NRF54LM20A"
     ],
     [
       "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b",
@@ -1032,6 +1049,30 @@
     [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
       "Revision History"
+    ],
+    [
+      "e4fbd4e6-e483-4086-a21b-0013d5446699",
+      "LORA"
+    ],
+    [
+      "67e3615d-2798-4fc1-aeb0-55b5d5393785",
+      "DISPLAY"
+    ],
+    [
+      "a3650505-0647-4e56-b6c3-f9d930462fce",
+      "Connectors"
+    ],
+    [
+      "38036fae-f104-4cdf-8068-fd316b2004d0",
+      "Power Supply"
+    ],
+    [
+      "1e100960-62ed-41d4-a9f5-9741387bec65",
+      "Gas Sensors"
+    ],
+    [
+      "5f7a07f7-7221-434b-9f38-104104b7608f",
+      "Misc"
     ]
   ],
   "text_variables": {

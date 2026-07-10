@@ -1,0 +1,167 @@
+(footprint "X2-DFN1006-3_L1.0-W0.6-BR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.23 0)
+		(layer "F.SilkS")
+		(uuid "6afb2725-ffda-4933-af56-b9f9b75eb95f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "X2-DFN1006-3_L1.0-W0.6-BR"
+		(at 0 4.23 0)
+		(layer "F.Fab")
+		(uuid "c1e80040-70df-4bdb-ae12-7d60c376424d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6eb853ce-aa7b-42d5-88d9-0fcdc79f7f2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "638a66d7-dba2-4238-93db-8cf0a2e03629")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0.33 0.7)
+		(end 0.37 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0d0d7ebf-12de-41c6-bf92-3f7d0b314753")
+	)
+	(fp_circle
+		(center 0.38 0.25)
+		(end 0.44 0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "eb1621e9-309e-4e70-aec8-d87c67f95a45")
+	)
+	(fp_line
+		(start -0.71 -0.51)
+		(end -0.71 -0.51)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7103eec-b2b2-45bd-ba58-77b6fe32f80a")
+	)
+	(fp_line
+		(start -0.71 -0.51)
+		(end 0.69 -0.51)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71ae2b41-0145-4edd-8a7c-f130c433b7a6")
+	)
+	(fp_line
+		(start 0.69 -0.51)
+		(end 0.69 0.51)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21708c92-4c90-4c49-a4ac-2e57e2858219")
+	)
+	(fp_line
+		(start 0.69 0.51)
+		(end -0.71 0.51)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "520a012c-207a-409e-bc9d-e30b447d6d52")
+	)
+	(fp_circle
+		(center 0.5 0.3)
+		(end 0.53 0.3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "eb9521d8-9afe-4a0f-bea6-4287872e49d6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bf168962-1a67-4b9d-baac-408ffc465ff6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.32 0.23 90)
+		(size 0.25 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "479487a9-3d13-431c-beb6-b627ae7cd3fc")
+	)
+	(pad "2" smd rect
+		(at 0.32 -0.23 90)
+		(size 0.25 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3503b8d0-1928-47ed-81d8-303e812f3534")
+	)
+	(pad "3" smd rect
+		(at -0.32 0 270)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dcec9569-619f-44ae-8e76-5521aa8b2ebc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/imported_lib/mosfet/PALROC-mosfet.3dshapes/X2-DFN1006-3_L1.0-W0.6-H0.4-BR.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
+)
