@@ -2,11 +2,11 @@
   <img alt="Logo" width="33%" src="Logos/dummy_logo.svg">
 </p>
 
-<h1 align="center">Board Name</h1>
+<h1 align="center">aeris_pcb</h1>
 
 <p align="center" width="100%">
-  <a href="/actions/workflows/ci.yaml">
-    <img alt="CI Badge" src="/actions/workflows/ci.yaml/badge.svg?branch=">
+  <a href="https://github.com/oriolreverte/palroc_one_aeris_pcb/actions/workflows/ci.yaml">
+    <img alt="CI Badge" src="https://github.com/oriolreverte/palroc_one_aeris_pcb/actions/workflows/ci.yaml/badge.svg?branch=">
   </a>
 </p>
 
