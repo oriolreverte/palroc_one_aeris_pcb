@@ -289,4 +289,16 @@
 			(xyz -0 -0 -0)
 		)
 	)
+	(model "${KIPRJMOD}/libraries/PALROC_Connectors/PALROC_Connectors.3dshapes/BST-BMV080-CAD - Part 1.step"
+		(hide yes)
+		(offset
+			(xyz -2.25 -20 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

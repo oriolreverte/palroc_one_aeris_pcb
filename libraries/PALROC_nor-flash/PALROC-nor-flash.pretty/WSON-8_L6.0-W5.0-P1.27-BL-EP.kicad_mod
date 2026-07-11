@@ -169,7 +169,7 @@
 		(uuid "de4ca537-eaa0-4061-9f06-fd2d006f5f41")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/imported_lib/nor-flash/PALROC-nor-flash.3dshapes/WSON-8_L6.0-W5.0-H0.7-P1.27.step"
+	(model "${KIPRJMOD}/libraries/PALROC_nor-flash/PALROC-nor-flash.3dshapes/WSON-8_L6.0-W5.0-H0.7-P1.27.step"
 		(offset
 			(xyz 0 0 0)
 		)

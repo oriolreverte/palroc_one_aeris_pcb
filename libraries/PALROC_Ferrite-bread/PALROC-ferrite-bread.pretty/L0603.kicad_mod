@@ -1,30 +1,199 @@
-(module easyeda2kicad:L0603 (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "L0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "699edeab-daa7-4aaa-a1b4-c54421e9eb3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L0603"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "585db79b-fa7c-445d-87d1-be6b2d43e1e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b36627cc-3959-40f6-9167-bb3fa45fc7ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7504d931-21fe-44a7-b7aa-5965931912db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1.43 -0.51)
+		(end -1.27 -0.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c49365e-2192-4bce-90d1-1c22d5110984")
 	)
-	(fp_text value L0603 (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1.43 0.5)
+		(end -1.43 -0.51)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0db62902-f821-4f76-bbe1-4f01a8131b6d")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1.28 -0.65)
+		(end -0.51 -0.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31bf8157-03b7-475c-a753-0c1986e0aa8a")
 	)
-	(fp_line (start -1.27 0.65) (end -1.43 0.50) (layer F.SilkS) (width 0.15))
-	(fp_line (start -1.43 0.50) (end -1.43 -0.51) (layer F.SilkS) (width 0.15))
-	(fp_line (start -1.43 -0.51) (end -1.27 -0.65) (layer F.SilkS) (width 0.15))
-	(fp_line (start 1.27 -0.65) (end 1.42 -0.50) (layer F.SilkS) (width 0.15))
-	(fp_line (start 1.42 -0.50) (end 1.42 0.52) (layer F.SilkS) (width 0.15))
-	(fp_line (start 1.42 0.52) (end 1.27 0.65) (layer F.SilkS) (width 0.15))
-	(fp_line (start -1.28 -0.65) (end -0.51 -0.65) (layer F.SilkS) (width 0.15))
-	(fp_line (start 1.27 0.65) (end 0.51 0.65) (layer F.SilkS) (width 0.15))
-	(fp_line (start -1.28 0.65) (end -0.51 0.65) (layer F.SilkS) (width 0.15))
-	(fp_line (start 1.27 -0.65) (end 0.51 -0.65) (layer F.SilkS) (width 0.15))
-	(pad 1 smd rect (at -0.70 0.00 180.00) (size 0.80 0.86) (layers F.Cu F.Paste F.Mask))
-	(pad 2 smd rect (at 0.70 0.00 180.00) (size 0.80 0.86) (layers F.Cu F.Paste F.Mask))
-	(fp_circle (center -0.80 0.40) (end -0.77 0.40) (layer F.Fab) (width 0.06))
-	(model "/PALROC-ferrite-bread.3dshapes/L0603_L1.6-W0.8-H0.5_BEAD.wrl"
-		(offset (xyz 1.660 -0.490 0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 180))
+	(fp_line
+		(start -1.28 0.65)
+		(end -0.51 0.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e11e8580-aaa7-4ca9-aa62-db6db61922d2")
+	)
+	(fp_line
+		(start -1.27 0.65)
+		(end -1.43 0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53af6f43-6cb6-4c94-811e-31313da5e827")
+	)
+	(fp_line
+		(start 1.27 -0.65)
+		(end 0.51 -0.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8888210a-d783-4b29-9b57-ad7b836f9936")
+	)
+	(fp_line
+		(start 1.27 -0.65)
+		(end 1.42 -0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a820d6af-69e6-41c4-84d6-bfac6289a839")
+	)
+	(fp_line
+		(start 1.27 0.65)
+		(end 0.51 0.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1a72394-c995-42b8-809a-7bb1be27119b")
+	)
+	(fp_line
+		(start 1.42 -0.5)
+		(end 1.42 0.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1a545e3-02f3-4100-b124-612c205dbbca")
+	)
+	(fp_line
+		(start 1.42 0.52)
+		(end 1.27 0.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d75cebe-0063-4062-b105-32bbf28f2337")
+	)
+	(fp_circle
+		(center -0.8 0.4)
+		(end -0.77 0.4)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c311c6c1-853f-42bd-afd1-238600ffef7f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "52df3ef2-d17b-4fa8-9eab-e6892698c47f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 0 180)
+		(size 0.8 0.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60a5d23f-6b77-4162-9b18-1f5e69e3cddf")
+	)
+	(pad "2" smd rect
+		(at 0.7 0 180)
+		(size 0.8 0.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "66c08431-029e-4ca0-afcd-2791841fd9e5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/PALROC_Ferrite-bread/PALROC-ferrite-bread.3dshapes/L0603_L1.6-W0.8-H0.5_BEAD.wrl"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
 	)
 )

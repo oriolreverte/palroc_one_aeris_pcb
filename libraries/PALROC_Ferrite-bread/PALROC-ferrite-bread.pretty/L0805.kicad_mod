@@ -225,7 +225,7 @@
 		(uuid "9d9f7849-77d6-410c-af2f-bb714b4e68be")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/imported_lib/ferriite-bread/PALROC-ferrite-bread.3dshapes/R0805_L2.0-W1.3-H0.6.wrl"
+	(model "${KIPRJMOD}/libraries/PALROC_Ferrite-bread/PALROC-ferrite-bread.3dshapes/R0805_L2.0-W1.3-H0.6.wrl"
 		(offset
 			(xyz 0 0 -0)
 		)
