@@ -1,0 +1,165 @@
+(footprint "0294-0-15-80-06-80-10-0_co-d4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J3"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fab8e306-aea0-4004-8e07-94f0027870b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Conn_01x04"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2baca808-0692-48c4-82c3-cde5d061f7fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf5fb355-a934-408b-aada-35374fa29176")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9cdac03-f3e4-4bd2-8ba4-0749d4f15ff9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 12.185952 4.34295)
+		(end 10.9 4.34295)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25038b3c-7147-4707-b314-0e05b840522c")
+	)
+	(fp_line
+		(start 12.204564 0.74295)
+		(end 10.922016 0.74295)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf8bd055-aee9-4f6e-8bd3-ec8e6d34f434")
+	)
+	(fp_arc
+		(start 12.204564 0.74295)
+		(mid 12.388036 2.543947)
+		(end 12.185952 4.34295)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de164a37-12d1-4f08-ab45-0b5f27728227")
+	)
+	(fp_circle
+		(center 3.88815 2.5)
+		(end 11.13815 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a6144226-b7e7-4b50-94e0-8aa026979290")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e969130f-4fe3-44c1-81e7-49486f1a4909")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1.93)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "a839b37d-68c3-4433-bbbb-283ace55f40a")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 2.3 2.3)
+		(drill 1.93)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "08adc4dd-054b-4001-87e2-b1245cdcaf90")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 2.3 2.3)
+		(drill 1.93)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "82f184ff-1c53-4ec5-b227-525b3a951fc9")
+	)
+	(pad "4" thru_hole oval
+		(at 7.62 0)
+		(size 2.3 2.3)
+		(drill 1.93)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "ab0e13fe-4986-47cb-8607-6508d3ea3dd6")
+	)
+	(group ""
+		(uuid "d6a65c23-e191-4387-a72b-f2739b9c8ade")
+		(members "25038b3c-7147-4707-b314-0e05b840522c" "a6144226-b7e7-4b50-94e0-8aa026979290"
+			"bf8bd055-aee9-4f6e-8bd3-ec8e6d34f434" "de164a37-12d1-4f08-ab45-0b5f27728227"
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/PALROC_GasSensors/PALROC_GasSensors.3dshapes/0294-0-15-80-06-80-10-0_co-d4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

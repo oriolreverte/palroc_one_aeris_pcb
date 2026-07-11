@@ -1,0 +1,4 @@
+_local_|2026-07-11|root|Local changes not committed|False|True
+604a55f|2026-07-11|oriolreverte|Update footprint 3D models, add through-hole connector, and refine PCB layout|True|True
+707cda3|2026-07-10|oriolreverte|Add power supply, connectors, LoRa, gas sensor, audio, and display sheets|True|True
+4dfdc44|2026-07-06|oriolreverte|Backup before adding module net labels|True|True

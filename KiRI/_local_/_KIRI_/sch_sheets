@@ -1,0 +1,12 @@
+palroc_one_pcb|palroc_one_pcb.kicad_sch||palroc_one_pcb|palroc_one_pcb
+Block Diagram|Block Diagram.kicad_sch||Block Diagram|palroc_one_pcb-Block Diagram
+Power - Sequencing|Power - Sequencing.kicad_sch||Power - Sequencing|palroc_one_pcb-Power - Sequencing
+Project Architecture|Project Architecture.kicad_sch||Project Architecture|palroc_one_pcb-Project Architecture
+connectors|connectors.kicad_sch||Connectors|palroc_one_pcb-Project Architecture-Connectors
+display|display.kicad_sch||DISPLAY|palroc_one_pcb-Project Architecture-DISPLAY
+Gas Sensors|Gas Sensors.kicad_sch||Gas Sensors|palroc_one_pcb-Project Architecture-Gas Sensors
+lora|lora.kicad_sch||LORA|palroc_one_pcb-Project Architecture-LORA
+Misc|Misc.kicad_sch||Misc|palroc_one_pcb-Project Architecture-Misc
+NRF54LM20A|NRF54LM20A.kicad_sch||NRF54LM20A|palroc_one_pcb-Project Architecture-NRF54LM20A
+PowerSupply|PowerSupply.kicad_sch||Power Supply|palroc_one_pcb-Project Architecture-Power Supply
+Revision History|Revision History.kicad_sch||Revision History|palroc_one_pcb-Revision History

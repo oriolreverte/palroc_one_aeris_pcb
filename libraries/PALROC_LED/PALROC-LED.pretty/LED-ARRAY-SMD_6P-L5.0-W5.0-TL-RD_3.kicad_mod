@@ -1,0 +1,217 @@
+(footprint "LED-ARRAY-SMD_6P-L5.0-W5.0-TL-RD_3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.6 0)
+		(layer "F.SilkS")
+		(uuid "c96a253a-8f54-4af7-bcfa-76b3e84992fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-ARRAY-SMD_6P-L5.0-W5.0-TL-RD_3"
+		(at 0 5.6 0)
+		(layer "F.Fab")
+		(uuid "95425191-20e6-4226-b182-118c0d03111b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4845644-f490-4bb1-b9a6-f4c0e01d31d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1da1ad9a-2343-4d84-b75f-64cdca559f64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C2843868"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4b9e0ff-fb2a-4899-869d-5741678f03b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.58 -2.58)
+		(end 2.58 -2.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d083b1c-0a2e-430c-b8fa-cb75dfb78f07")
+	)
+	(fp_line
+		(start -2.58 2.58)
+		(end 2.58 2.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5836ae53-eb02-492f-9cf8-11d1478a1432")
+	)
+	(fp_circle
+		(center -3.58 -1.75)
+		(end -3.45 -1.75)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d4572515-2c8a-4782-b47f-2155d56ef053")
+	)
+	(fp_circle
+		(center -2.7 -2.5)
+		(end -2.67 -2.5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f17b2ee1-7483-4b5e-a3fa-39fcc9fcb4ac")
+	)
+	(fp_circle
+		(center -2.8 -1.75)
+		(end -2.68 -1.75)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "2f42ff54-c41a-47be-b97e-ee2ac3d6476a")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98fbd901-66c9-4461-93f9-919c96c3a8c9")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a5298b2-8f7d-4f34-917a-a991e6540285")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21bbe2bf-2cfa-493f-a361-4a4f45b73738")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4daca46b-473c-4ed1-9fb7-046159750df8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a71d980e-1c6f-4edd-a88d-c0bca84a2073")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.23 -1.6)
+		(size 2.105 0.98)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23dbfbdd-1642-430b-aa16-df2c5e23a6dd")
+	)
+	(pad "2" smd rect
+		(at -2.23 0)
+		(size 2.105 0.98)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b52ba186-391b-4d58-8296-d2ac3ecc05f6")
+	)
+	(pad "3" smd rect
+		(at -2.23 1.6)
+		(size 2.105 0.98)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca2214b3-5c2c-4f89-8aac-115c066d5001")
+	)
+	(pad "4" smd rect
+		(at 2.23 1.6)
+		(size 2.105 0.98)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "473b03b7-5560-49be-9db9-31594544f79a")
+	)
+	(pad "5" smd rect
+		(at 2.23 0)
+		(size 2.105 0.98)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1b8f655d-d5bd-455d-8c1d-691162fae91a")
+	)
+	(pad "6" smd rect
+		(at 2.23 -1.6)
+		(size 2.105 0.98)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "794a1a8b-738d-4f7f-8619-4d8ded5e51f5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/PALROC_LED/PALROC-LED.3dshapes/LED SMD 5050 RGB - Part 1.step"
+		(offset
+			(xyz -2.25 1.65 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

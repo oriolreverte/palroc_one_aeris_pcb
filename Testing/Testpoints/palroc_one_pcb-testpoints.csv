@@ -1,0 +1,14 @@
+Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
+TP1,/Project Architecture/Connectors/SWDCLK_NRF54,Default,49.6000,72.2000,top,SMT,TestPoint_Probe,TestPoint_Pad_D1.0mm
+TP2,VBUS_in,Default,49.6000,83.3500,top,SMT,TestPoint_Probe,TestPoint_Pad_D1.0mm
+TP3,VBAT,Default,49.6000,80.3000,top,SMT,TestPoint_Probe,TestPoint_Pad_D1.0mm
+TP4,SHPHLD,Default,49.6000,77.2500,top,SMT,TestPoint_Probe,TestPoint_Pad_D1.0mm
+TP5,GND,GND,52.6500,83.3500,top,SMT,TestPoint_Probe,TestPoint_Pad_D1.0mm
+TP6,GND,GND,52.6500,80.3000,top,SMT,TestPoint_Probe,TestPoint_Pad_D1.0mm
+TP7,GND,GND,52.6500,77.2500,top,SMT,TestPoint_Probe,TestPoint_Pad_D1.0mm
+TP8,VDD_LNA1,Default,55.7000,83.3500,top,SMT,TestPoint_Probe,TestPoint_Pad_D1.0mm
+TP9,VDD_ANALOG,Default,55.7000,80.3000,top,SMT,TestPoint_Probe,TestPoint_Pad_D1.0mm
+TP10,VSYS,Default,55.7000,77.2500,top,SMT,TestPoint_Probe,TestPoint_Pad_D1.0mm
+TP11,+3v3_EXTRA,Default,58.7500,83.3500,top,SMT,TestPoint_Probe,TestPoint_Pad_D1.0mm
+TP12,+3V3,Power 3V3,58.7500,80.3000,top,SMT,TestPoint_Probe,TestPoint_Pad_D1.0mm
+TP13,VBUS_out,Default,58.7500,77.2500,top,SMT,TestPoint_Probe,TestPoint_Pad_D1.0mm
